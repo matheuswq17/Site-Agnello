@@ -1,0 +1,141 @@
+body{
+    background-color: #FFF5DD;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: #56070c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.logo{
+    font-size: 2em;
+    color: white;
+    user-select: none;
+}
+
+.navegacao a {
+    position: relative;
+    font-size: 1.1em;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 20px;
+    transition: .3s;
+}
+
+.navegacao a:hover,
+.navegacao a.ativo {
+    color: #300707;
+}
+
+#banner{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    left: 0px;
+    top: 67px;
+}
+
+.txtbanner{
+    position: absolute;
+    width: 663px;
+    height: 161px;
+    left: 10%;
+    top: 293px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color: #FFF;
+    opacity: 0.4;
+}
+
+#con{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    top: 50%;
+}
+
+footer{
+    position: absolute;
+    box-sizing: border-box;
+    position: absolute;
+    height: 250px;
+    left: 0%;
+    right: 0%;
+    top: 1975px;
+    background: #290505;
+    color: #FFF;
+
+}
+
+.footlist{
+    position: absolute;
+    font-size: 1.1em;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.home{
+    display: flex;
+    position: absolute;
+    font-size: 20px;
+    height: 2200px;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    opacity: 100%;
+    color: black;
+
+    
+}
+
+.coluna {
+    flex: 50%;
+    font-size: 20px;
+    padding-right: 400px;
+    
+    
+}
+
+#titulo{
+    font-size: 45px;
+    height: 100px;
+}
+
+.box{
+    box-sizing: border-box;
+    position: absolute;
+    width: 1416px;
+    height: 200px;
+    left: 200px;
+    top: 700px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+.elemento{
+    width: 100px;
+    height: 100px;
+    background-color: #290505;
+    border: 1px solid black;
+}
